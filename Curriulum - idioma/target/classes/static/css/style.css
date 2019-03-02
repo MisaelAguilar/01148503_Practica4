@@ -1,0 +1,73 @@
+@charset "utf-8";
+body {
+  font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+  background-color: #42413C;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+#logo{
+    background-color: #C6D580;
+    display:block;
+    width:180px;
+    height:90px
+}
+
+ul, ol, dl {
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+header {
+    background-color: #ADB96E;
+}
+.content {
+    padding: 10px 0;
+    width: 100%;
+    float: left;
+    text-align: right;
+    font-size: 100%;
+}
+aside {
+    float: left;
+    width: 180px;
+    background-color: #EADCAE;
+    padding: 10px 0;
+}
+
+footer {
+    padding: 10px 0;
+    background-color: #CCC49F;
+    position: relative;
+    clear: both;
+}
+.fltrt {
+    float: right;
+    margin-left: 8px;
+}
+.fltlft {
+    float: left;
+    margin-right: 8px;
+}
+.clearfloat {
+    clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+header, section, footer, aside, article, figure {
+    display: block;
+}
